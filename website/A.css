@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+
+}
+ul li.active a{
+    background-color: #fff;
+    color:#000;
+
+}
+.logo img{
+    float: left;
+    width: 230px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: top;
+    padding-top: top;
+    top: 150px;
+    left: 100px;
+    text-size-adjust: 10px;
+    
+}
+.title h1{
+    color: #fff;
+    font-size: 70px ;
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transform: 0.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+.h1 p {
+    color: #fff;
+    text-size-adjust: none;
+}
+
+.Questions{
+color: black;
+margin-top: 25px;
+position: relative;
+left: 50px;
+}
+
+.heading{
+    font: size 20px;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+.para{
+    font-size: 20px;
+    color: black;
+    flex: indent 1cm;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+}
+.Ev{
+    border: 1px;
+    width: 50px;
+    padding: 5px;
+    margin-left:center;
+    margin-right: center;
+
+
+}
+.btn{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.graph{
+    height:800px ;
+    width: 600px;
+    position: absolute;
+}
+
+.models{
+    font: size 20px;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+.img{
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 20px;
+    object-fit: cover;
+}
